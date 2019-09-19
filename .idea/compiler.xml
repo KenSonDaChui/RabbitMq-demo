@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RabbitMq-consumer" />
+        <module name="RabbitMq-producer" />
+        <module name="SpringBoot_RabbitMq_Consumer" />
+        <module name="SpringBoot_RabbitMq_Producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fs" target="1.8" />
+      <module name="RabbitMq-consumer" target="1.8" />
+      <module name="RabbitMq-producer" target="1.8" />
+      <module name="SpringBoot_RabbitMq_Consumer" target="1.8" />
+      <module name="SpringBoot_RabbitMq_Producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

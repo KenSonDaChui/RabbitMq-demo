@@ -1,0 +1,11 @@
+server:
+  port: 44008
+spring:
+  application:
+    name: SpringBoot_RabbitMq_Producer
+    rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+      username: guest
+      password: guest
+      virtualHost: /
