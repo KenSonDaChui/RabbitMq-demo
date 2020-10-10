@@ -12,17 +12,16 @@ import java.io.IOException;
 public class Consumer01 {
 
     private static final String QUEUE= "hello , xiaokeai";
-
     public static void main(String[] args) {
         //创建连接工厂
         ConnectionFactory connectionFactory = new ConnectionFactory();
         //设置链接
-        connectionFactory.setHost("127.0.0.1");
+        connectionFactory.setHost("192.168.241.128");
         //设置端口号
         connectionFactory.setPort(5672);
         //设置用户名,密码
-        connectionFactory.setUsername("guest");
-        connectionFactory.setPassword("guest");
+        connectionFactory.setUsername("admin");
+        connectionFactory.setPassword("123456");
         //设置虚拟机
         connectionFactory.setVirtualHost("/");
         Connection connection = null;
