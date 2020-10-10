@@ -32,7 +32,6 @@ public class RabbitMqConfig {
         return new Queue(QUEUE_INFORM_EMAIL);
     }
 
-    //设置队列,短信
     @Bean(QUEUE_INFORM_SMS)
     public Queue QUEUE_INFORM_SMS() {
         return new Queue(QUEUE_INFORM_SMS);
@@ -41,7 +40,7 @@ public class RabbitMqConfig {
     //绑定队列到交换机EMAIL
     @Bean
     public Binding BINDING_QUEUE_INFORM_EMAIL(@Qualifier(QUEUE_INFORM_EMAIL) Queue queue,
-                                              @Qualifier(EXCHANGE_TOPICS_INFORM) Exchange Exchange_topic_inform) {
+                                               @Qualifier(EXCHANGE_TOPICS_INFORM) Exchange Exchange_topic_inform) {
         return  BindingBuilder.bind(queue).to(Exchange_topic_inform).with(ROUTINGSKEY_EMAIL).noargs();
     }
     @Bean

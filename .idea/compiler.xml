@@ -14,10 +14,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fs" target="1.8" />
-      <module name="RabbitMq-consumer" target="1.8" />
-      <module name="RabbitMq-producer" target="1.8" />
-      <module name="SpringBoot_RabbitMq_Consumer" target="1.8" />
-      <module name="SpringBoot_RabbitMq_Producer" target="1.8" />
+      <module name="RabbitMq-consumer" target="1.5" />
+      <module name="RabbitMq-producer" target="1.5" />
+      <module name="SpringBoot_RabbitMq_Consumer" target="1.5" />
+      <module name="SpringBoot_RabbitMq_Producer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

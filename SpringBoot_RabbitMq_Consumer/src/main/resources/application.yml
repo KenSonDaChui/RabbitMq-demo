@@ -4,8 +4,8 @@ spring:
   application:
     name: SpringBoot_RabbitMq_Consumer
     rabbitmq:
-      host: 127.0.0.1
+      host: 192.168.1.50
       port: 5672
-      username: guest
-      password: guest
+      username: admin
+      password: 123456
       virtualHost: /
